@@ -1,5 +1,9 @@
 div.side-panel{
   background-color: grey;
-  float:left;
-  width: 350px;
+}
+p.initial1{
+  font-style: italic;
+}
+span{
+  font-style: italic;
 }
