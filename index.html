@@ -3,82 +3,89 @@
     <title>MOA</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="side-panel">
-      <H2>MOA</h2>
-      <form class="name">
-        <input id="name1" type="text" name="name1" value="">
-        <input id="name2" type="text" name="name2" value=""><br>
-        <input type="submit" value="submit" onclick="checkname()">
-        <input type="reset" value="reset" onclick="">
-      </form>
-      <p>what is your name</p>
-      <form class="question1">
-        <input class="num1" type="radio" value="1"><label>False</label>
-        <input class="num2" type="radio" value="2"><label>False</label>
-        <input class="num3" type="radio" value="3"><label>False</label>
-      </form>
-    <p>what is your name</p>
-    <form class="question2">
-      <input class="num1" type="radio" value="1"><label>False</label>
-      <input class="num2" type="radio" value="2"><label>False</label>
-      <input class="num3" type="radio" value="3"><label>False</label>
-    </form>
-    <p>what is your name></p>
-      <form class="question3">
-        <input class="num1" type="radio" value="1"><label>False</label>
-        <input class="num2" type="radio" value="2"><label>False</label>
-        <input class="num3" type="radio" value="3"><label>False</label>
-      </form>
-    <p>what is your name></p>
-      <form class="question4">
-        <input class="num1" type="radio" value="1"><label>False</label>
-        <input class="num2" type="radio" value="2"><label>False</label>
-        <input class="num3" type="radio" value="3"><label>False</label>
-      </form>
-    <p>what is your name></p>
-      <form class="question5">
-        <input class="num1" type="radio" value="1"><label>False</label>
-        <input class="num2" type="radio" value="2"><label>False</label>
-        <input class="num3" type="radio" value="3"><label>False</label>
-      </form>
-    <p>what is your name></p>
-      <form class="question6">
-        <input class="num1" type="radio" value="1"><label>False</label>
-        <input class="num2" type="radio" value="2"><label>False</label>
-        <input class="num3" type="radio" value="3"><label>False</label>
-      </form>
-      <p>what is your name></p>
-        <form class="question7">
-          <input class="num1" type="radio" value="1"><label>False</label>
-          <input class="num2" type="radio" value="2"><label>False</label>
-          <input class="num3" type="radio" value="3"><label>False</label>
-        </form>
-      <p>what is your name></p>
-        <form class="question8">
-          <input class="num1" type="radio" value="1"><label>False</label>
-          <input class="num2" type="radio" value="2"><label>False</label>
-          <input class="num3" type="radio" value="3"><label>False</label>
-        </form>
-        <p>what is your name></p>
-          <form class="question9">
-            <input class="num1" type="radio" value="1"><label>False</label>
-            <input class="num2" type="radio" value="2"><label>False</label>
-            <input class="num3" type="radio" value="3"><label>False</label>
-          </form>
-          <p>what is your name></p>
-            <form class="question10">
-              <input class="num1" type="radio" value="1"><label>False</label>
-              <input class="num2" type="radio" value="2"><label>False</label>
-              <input class="num3" type="radio" value="3"><label>False</label>
-            </form>
-            <input type="submit" value="submit" onclick="checkgrade()">
+        <form>
+      <div class="username">
+        <input type="text" name="name1" value="">
+        <input type="text" name="name2" value="">
+      </div>
 
+      <div id="question1">
+          <p>What is your name</p>
+        <input name="num1" type="radio" value="10"><label>False</label>
+        <input name="num1" type="radio" value="0"><label>False</label>
+        <input name="num1" type="radio" value="0"><label>False</label>
+      </div>
+
+    <div id="question2">
+        <p>What is your name</p>
+      <input name="num2" type="radio" value="10" required><label>False</label>
+      <input name="num2" type="radio" value="0"><label>False</label>
+      <input name="num2" type="radio" value="0"><label>False</label>
+    </div>
+
+
+      <div id="question3">
+          <p>What is your name</p>
+        <input name="num3" type="radio" value="0" required><label>False</label>
+        <input name="num3" type="radio" value="10"><label>False</label>
+        <input name="num3" type="radio" value="0"><label>False</label>
+      </div>
+
+      <div id="question4">
+          <p>what is your name</p>
+        <input name="num4" type="radio" value="0" required><label>False</label>
+        <input name="num4" type="radio" value="0"><label>False</label>
+        <input name="num4" type="radio" value="10"><label>False</label>
+      </div>
+
+      <div id="question5">
+          <p>what is your name</p>
+        <input name="num5" type="radio" value="0" required><label>False</label>
+        <input name="num5" type="radio" value="10"><label>False</label>
+        <input name="num5" type="radio" value="0"><label>False</label>
+      </div>
+
+      <div id="question6">
+          <p>what is your name</p>
+        <input name="num6" type="radio" value="10" required><label>False</label>
+        <input name="num6" type="radio" value="0"><label>False</label>
+        <input name="num6" type="radio" value="0"><label>False</label>
+      </div>
+
+        <div id="question7">
+            <p>what is your name</p>
+          <input name="num7" type="radio" value="0" required><label>False</label>
+          <input name="num7" type="radio" value="0"><label>False</label>
+          <input name="num7" type="radio" value="10"><label>False</label>
+        </div>
+
+        <div id="question8">
+            <p>what is your name</p>
+          <input name="num8" type="radio" value="0" required><label>False</label>
+          <input name="num8" type="radio" value="10"><label>False</label>
+          <input name="num8" type="radio" value="0"><label>False</label>
+        </div>
+
+          <div id="question9">
+            <p>what is your name</p>
+            <input name="num9" type="radio" value="10" required><label>False</label>
+            <input name="num9" type="radio" value="0"><label>False</label>
+            <input name="num9" type="radio" value="0"><label>False</label>
+          </div>
+
+            <div id="question10">
+                <p>what is your name</p>
+              <input name="num10" type="radio" value="10"><label>False</label>
+              <input name="num10" type="radio" value="0"><label>False</label>
+              <input name="num10" type="radio" value="0" required><label>False</label>
+            </div>
+            <input type="button" value="Submit">
+          </form>
       <p id="output"></p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script href="js/scripts.js"></script>
   </body>
 </HTML>
