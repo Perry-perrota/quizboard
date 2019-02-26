@@ -6,13 +6,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
   </head>
-  <body>
+  <body class="entire">
     <div class="container">
         <form>
+          <nav class="navbar navbar-default navbar-fixed-top">
       <div class="jumbotron">
-        <label>First name</label><input type="text" name="name1" value="" required><br>
-        <label>Second name</label><input type="text" name="name2" value="" required>
-      </div>
+        <label>First name</label><input class="nam1" type="text" name="name1" value="" required><br>
+        <label>Second name</label><input class="nam2" type="text" name="name2" value="" required>
+        </div>
+      </nav>
       <div class="well">
         <h3>Kindly follow the instructions below</h3>
         <ul>
@@ -21,153 +23,151 @@
           <li>Take 30 minutes only</li>
         </ul>
       </div>
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
+          <p class="panel-title">Which of the following is not a javascript datatype</p>
         </div>
-        <div class="panel-footer">
+        <div class="panel-body">
+        <input name="num1" type="radio" value="10"><label>method</label>
+        <input name="num1" type="radio" value="0"><label>boolean</label>
+        <input name="num1" type="radio" value="0"><label>integer</label>
+      </div>
+      <div class="panel-footer">
         <p>Question 1</p>
       </div>
       </div>
-      <div id="panel panel-default">
+
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">Which year was javascript invented</p>
         </div>
         <div class="panel-body">
-        <input name="num1" type="radio" value="10"><label>False</label>
-        <input name="num1" type="radio" value="0"><label>False</label>
-        <input name="num1" type="radio" value="0"><label>False</label>
+        <input name="num2" type="radio" value="10"><label>1995</label>
+        <input name="num2" type="radio" value="0"><label>1987</label>
+        <input name="num2" type="radio" value="0"><label>1989</label>
       </div>
       <div class="panel-footer">
         <p>Question 2</p>
       </div>
       </div>
 
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">Which of the following is the javascript library</p>
         </div>
         <div class="panel-body">
-        <input name="num2" type="radio" value="10"><label>False</label>
-        <input name="num2" type="radio" value="0"><label>False</label>
-        <input name="num2" type="radio" value="0"><label>False</label>
+        <input name="num3" type="radio" value="10"><label>jquery</label>
+        <input name="num3" type="radio" value="0"><label>Django</label>
+        <input name="num3" type="radio" value="0"><label>bootstrap</label>
       </div>
       <div class="panel-footer">
         <p>Question 3</p>
       </div>
       </div>
-
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">Which of the following is the correct javascript file extention</p>
         </div>
         <div class="panel-body">
-        <input name="num3" type="radio" value="10"><label>False</label>
-        <input name="num3" type="radio" value="0"><label>False</label>
-        <input name="num3" type="radio" value="0"><label>False</label>
+        <input name="num4" type="radio" value="10"><label>.js</label>
+        <input name="num4" type="radio" value="0"><label>.java</label>
+        <input name="num4" type="radio" value="0"><label>.javascript</label>
       </div>
       <div class="panel-footer">
         <p>Question 4</p>
       </div>
       </div>
 
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">Which of the following is the correct statement?</p>
         </div>
         <div class="panel-body">
-        <input name="num4" type="radio" value="10"><label>False</label>
-        <input name="num4" type="radio" value="0"><label>False</label>
-        <input name="num4" type="radio" value="0"><label>False</label>
+        <input name="num5" type="radio" value="10"><label>Javascript provclasses interactivity to the user</label>
+        <input name="num5" type="radio" value="0"><label>Javascript add styles to a webpage</label>
+        <input name="num5" type="radio" value="0">Javascript is the same as java<label></label>
       </div>
       <div class="panel-footer">
         <p>Question 5</p>
       </div>
       </div>
 
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">Who created Javascript</p>
         </div>
         <div class="panel-body">
-        <input name="num5" type="radio" value="10"><label>False</label>
-        <input name="num5" type="radio" value="0"><label>False</label>
-        <input name="num5" type="radio" value="0"><label>False</label>
+        <input name="num6" type="radio" value="10"><label>Brendan Eich</label>
+        <input name="num6" type="radio" value="0"><label>Mark Zuckerburg</label>
+        <input name="num6" type="radio" value="0"><label>Donald Trump</label>
       </div>
       <div class="panel-footer">
         <p>Question 6</p>
       </div>
       </div>
 
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">Which input type refers to select boxes?</p>
         </div>
         <div class="panel-body">
-        <input name="num6" type="radio" value="10"><label>False</label>
-        <input name="num6" type="radio" value="0"><label>False</label>
-        <input name="num6" type="radio" value="0"><label>False</label>
+        <input name="num7" type="radio" value="10"><label>&lt;input type="checkbox" &gt;</label>
+        <input name="num7" type="radio" value="0"><label>&lt;input type="radio" &gt;</label>
+        <input name="num7" type="radio" value="0"><label>&lt;input type="text" &gt;</label>
+
       </div>
       <div class="panel-footer">
         <p>Question 7</p>
       </div>
       </div>
 
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">What is a string value</p>
         </div>
         <div class="panel-body">
-        <input name="num7" type="radio" value="10"><label>False</label>
-        <input name="num7" type="radio" value="0"><label>False</label>
-        <input name="num7" type="radio" value="0"><label>False</label>
+        <input name="num8" type="radio" value="10"><label>values wrapped in quotation marks</label>
+        <input name="num8" type="radio" value="0"><label>Numerical value</label>
+        <input name="num8" type="radio" value="0"><label>None of the above</label>
       </div>
       <div class="panel-footer">
         <p>Question 8</p>
       </div>
       </div>
 
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">Which of the following would not contain information about functions</p>
         </div>
         <div class="panel-body">
-        <input name="num8" type="radio" value="10"><label>False</label>
-        <input name="num8" type="radio" value="0"><label>False</label>
-        <input name="num8" type="radio" value="0"><label>False</label>
+        <input name="num9" type="radio" value="10"><label>Function is a method</label>
+        <input name="num9" type="radio" value="0"><label>values can be passed into functions and executed within the function</label>
+        <input name="num9" type="radio" value="0"><label>Functions always return a value</label>
       </div>
       <div class="panel-footer">
         <p>Question 9</p>
       </div>
       </div>
 
-      <div id="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
+          <p class="panel-title">Which of the following shows <strong>single-line comments</strong</p>
         </div>
         <div class="panel-body">
-        <input name="num9" type="radio" value="10"><label>False</label>
-        <input name="num9" type="radio" value="0"><label>False</label>
-        <input name="num9" type="radio" value="0"><label>False</label>
+        <input name="num10" type="radio" value="10"><label>//</label>
+        <input name="num10" type="radio" value="0"><label>/**/</label>
+        <input name="num10" type="radio" value="0"><label>**</label>
       </div>
       <div class="panel-footer">
         <p>Question 10</p>
       </div>
       </div>
-
-      <div id="panel panel-default">
-        <div class="panel-heading">
-          <p class="panel-title">What is your name</p>
-        </div>
-        <div class="panel-body">
-        <input name="num10" type="radio" value="10"><label>False</label>
-        <input name="num10" type="radio" value="0"><label>False</label>
-        <input name="num10" type="radio" value="0"><label>False</label>
-      </div>
-      </div>
-            <input type="button" value="Submit">
-          </form>
-      <p id="nameoutput"></p>
-      <p id="scoreoutput"></p>
+            <input class="button1" type="button" value="Submit">
+    </form>
+      <div class="name-show">
+        <p id="nameoutput"></p>
+        <p id="scoreoutput"></p>
+         </div>
     </div>
     <div>
   </body>

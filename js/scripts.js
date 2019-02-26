@@ -17,15 +17,6 @@ $(document).ready(function(){
   var queten = parseInt($("input[name='num10']:checked").val());
         var questions=[];
     questions.push(queone,quetwo,quethree,quefour,quefive,quesix,queseven,queeight,quenine,queten);
-    var i;
-    for (i = 0; i < questions.length; i++) {
-      if (questions[i]===isNaN()){
-        return questions[i]===0;
-      }
-      else {
-        return questions[i];
-      }
-}
     var total =0;
       questions.forEach(function(question) {
         total += question;
@@ -34,3 +25,8 @@ $(document).ready(function(){
       event.preventDefault();
   });
 });
+
+$("input[type='button']").click(function(event){
+    $(".name-show").toggle();
+    $(".jumbotron").toggle();
+  });

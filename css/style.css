@@ -1,1 +1,29 @@
+.navbar{
+  margin-left: 190px;
+  width: 500px;
 
+}
+.nam1{
+border-radius: 10px;
+}
+.nam2{
+border-radius: 10px;
+}
+.button1{
+  background-color: green;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 40px;
+}
+.name-show{
+  float: right;
+}
+.panel-body{
+
+}
+.container{
+  background-image: url(../images/download.jpg);
+}
+.entire{
+  background-image: url(../images/morocco.png);
+}
