@@ -1,6 +1,6 @@
 .navbar{
   margin-left: 190px;
-  width: 500px;
+  width: 1140px;
 
 }
 .nam1{
@@ -17,8 +17,13 @@ border-radius: 10px;
 }
 .name-show{
   float: right;
+  background-color: white;
 }
 .panel-body{
+
+}
+.jumbotron{
+  margin-top: 20px;
 
 }
 .container{
@@ -26,4 +31,9 @@ border-radius: 10px;
 }
 .entire{
   background-image: url(../images/morocco.png);
+}
+h4{
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 500px
 }
