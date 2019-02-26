@@ -20,7 +20,15 @@ $(document).ready(function(){
     var total =0;
       questions.forEach(function(question) {
         total += question;
-        document.getElementById("scoreoutput").innerHTML="This is your score"+" " + total;
+        if (total>=80) {
+            document.getElementById("scoreoutput").innerHTML="Excellent score of"+" " + total;
+        } else if(total>=50 && total<=80===true) {
+            document.getElementById("scoreoutput").innerHTML="TFair score of"+" " + total;
+        }
+        else{
+            document.getElementById("scoreoutput").innerHTML="Poor score of"+" " + total;
+        }
+      
 });
       event.preventDefault();
   });
