@@ -3,7 +3,7 @@
 ### By Perry Obara
 ### Description
 ### This is an online quiz
-[The link to the website is :](https://perry-perrota.github.io/quizboard)The link to the website is :
+ The link to the website is : [https://perry-perrota.github.io/quizboard]
 ### BDD
 * You need to answer all the questions to the best of your knowledge
 * Each question has an answer that has 10 marks.
